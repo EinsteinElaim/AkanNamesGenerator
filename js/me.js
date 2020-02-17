@@ -5,7 +5,9 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
         var malenames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         var femalenames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-        
+        //checking if date is present
+
+
         //checkking if date validation base works
         function validatingInput(){
             alert(nn);
