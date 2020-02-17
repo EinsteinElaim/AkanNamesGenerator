@@ -9,7 +9,6 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
 
         //checkking if date validation base works
         function validatingInput(){
-            alert('Ignore the next five pop ups');
             alert(nn);
             alert(mm);
             alert(yy);
@@ -40,6 +39,7 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
         function genderselector(){
             getInputValue();
             validatingInput();
+            alert('Ignore the next five pop ups');
              if(selector===true){
                  maleanswer = malenames[nn];
                  alert(`Your male Akan Name is ${maleanswer}.`);
