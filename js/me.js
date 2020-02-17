@@ -44,7 +44,7 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
                  selectorr === true;
              }else if(selectorr===true){
                  femaleanswer = femalenames[nn];
-                 alert(femaleanswer);
+                 alert(`Your female akan name is ${femaleanswer} .`);
              }else{
                  selector === true;
              }
