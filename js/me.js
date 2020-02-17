@@ -5,15 +5,7 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
         var malenames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         var femalenames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-        //checking if date is present
-        function datepresent(){
-            var ddd = new Date(document.getElementById('myInput').value);
-            if(ddd===""){
-                alert('You must enter a date of birth !');
-            }else{
-                alert('Date of birth is being processed !')
-            }
-        }
+        
 
         //checkking if date validation base works
         function validatingInput(){
@@ -44,6 +36,7 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
         // }
 
         function genderselector(){
+            datepresent();
             getInputValue();
             validatingInput();
              if(selector===true){
