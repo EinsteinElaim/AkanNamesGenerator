@@ -39,7 +39,7 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
             validatingInput();
              if(selector===true){
                  maleanswer = malenames[nn];
-                 alert(maleanswer);
+                 alert(`Your male Akan Name is ${maleanswer}.`);
              }else if(selector===false){
                  selectorr === true;
              }else if(selectorr===true){
