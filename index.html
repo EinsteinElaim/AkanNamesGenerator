@@ -8,19 +8,22 @@
     <title>Document</title>
 </head>
 <body class="container">
-    <div class="mytitle">
+    <div class="mytitle row">
         <h1>Akan Name Generator</h1>
+        <div class="column">
+            <input type="date" id="myInput">
+        <select>
+            <option onclick="maleisclicked();">Male</option>
+            <option onclick="femaleisclicked();">Female</option>
+        </select>
+        </div>
     </div>
 
-    <input type="date" id="myInput">
-    <select>
-        <option onclick="maleisclicked();">Male</option>
-        <option onclick="femaleisclicked();">Female</option>
-    </select>
-
-
-
     
+
+
+
+
 <p></p>
     <button type="button" onclick="genderselector();">Get Value</button>
     <script src="js/me.js"></script>
