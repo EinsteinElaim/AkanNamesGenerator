@@ -29,10 +29,22 @@ body{
     font-family: arial;
 }
 
+.paragraph{
+    width: 30%;
+    float: left;
+    background-color: yellow;
+}
+
+.paragraph2{
+    width: 30%;
+    background-color: yellow;
+}
+
 .mydropdown{
     width: 180px;
-    margin-left: 50%;
+    float: right;
     height:90px;
+    margin-left: 30%;
 }
 
 .mydropdown p{
@@ -42,6 +54,7 @@ body{
     text-align: center;
     font-family: arial;
 }
+
 
 p{
     text-align: center;
