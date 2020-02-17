@@ -5,3 +5,7 @@ body{
     background-position: center;
 }
 
+p{
+    text-align: center;
+    font-family: arial;
+}

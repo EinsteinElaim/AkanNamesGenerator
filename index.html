@@ -7,14 +7,20 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Document</title>
 </head>
-<body class="container">
-    <div class="mytitle row">
-        <h1>Akan Name Generator</h1>
+<body>
+    
+    <div class="">
+        
+    </div>
+    <div class="mytitle">
+        <h1 class="header" style="color: white; text-align: center; font-family: arial;">Akan Name Generator</h1>
         <div class="column">
-            <input type="date" id="myInput">
-        <select>
-            <option onclick="maleisclicked();">Male</option>
-            <option onclick="femaleisclicked();">Female</option>
+            <p class="head" style="font-family: arial; color: white; text-align: center;">Enter your Date of Birth here :</p>
+            <input class="bg-success" style="border-radius: 25px; width: 130px;" type="date" id="myInput">
+
+        <select class="dropdown drpodown-toggle" data-toggle="dropdown" style="border-radius: 15px; text-align: center; position: initial;">
+            <option class="dropdown-item bg-success" onclick="maleisclicked();">Male</option>
+            <option class="dropdown-item bg-success" onclick="femaleisclicked();">Female</option>
         </select>
         </div>
     </div>
@@ -24,8 +30,8 @@
 
 
 
-<p></p>
-    <button type="button" onclick="genderselector();">Get Value</button>
+    <p class="p py"></p>
+    <button class="btn btn-success" type="button" onclick="genderselector();">Get Value</button>
     <script src="js/me.js"></script>
 
 </body>
