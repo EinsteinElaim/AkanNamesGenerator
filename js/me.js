@@ -36,7 +36,6 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
         // }
 
         function genderselector(){
-            datepresent();
             getInputValue();
             validatingInput();
              if(selector===true){
