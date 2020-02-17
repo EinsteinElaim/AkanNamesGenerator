@@ -1,8 +1,46 @@
 body{
-    background-image: url("/images/birthday.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin-left: 0.5%;
+    margin-right: opx;
+
+    animation: change 15s infinite;
+    animation-delay: 25ms;
+}
+
+@keyframes change {
+    0%{background-color: rgb(145, 20, 134);}
+    10%{background-color: rgb(170, 34, 57);}
+    20%{background-color: rgb(250, 42, 35);}
+    30%{background-color: rgb(238, 86, 15);}
+    40%{background-color: rgb(207, 172, 16);}
+    50%{background-color: rgb(97, 184, 26);}
+    60%{background-color: rgb(31, 182, 169);}
+    70%{background-color: rgb(34, 121, 221);}
+    80%{background-color: rgb(20, 49, 148);}
+    90%{background-color: rgb(90, 39, 170);}
+    100%{background-color: rgb(153, 24, 185);}
+    110%{background-color: rgb(145, 20, 134);}
+}
+
+.myheader{
+    background-color: yellow;
+    border-left: 0px;
+    color:black;
+    text-align: center;
+    font-family: arial;
+}
+
+.mydropdown{
+    width: 180px;
+    margin-left: 50%;
+    height:90px;
+}
+
+.mydropdown p{
+    background-color: yellow;
+    border-left: 0px;
+    color:black;
+    text-align: center;
+    font-family: arial;
 }
 
 p{
