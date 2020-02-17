@@ -9,7 +9,7 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
 
         //checkking if date validation base works
         function validatingInput(){
-            alert('Ignore the next five pop ups, they are for the day you are born from an array and month plus splitting year values');
+            alert('Ignore the next five pop ups');
             alert(nn);
             alert(mm);
             alert(yy);
