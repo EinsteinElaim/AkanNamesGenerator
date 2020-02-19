@@ -2,10 +2,10 @@
 This project is a generator for akan names given to both male and female according to the day of the week you are born
 
 # live link
-## Open my link to my portfolio
+## Open my link to my Akan Name Generator
 https://einsteinelaim.github.io/AkanNamesGenerator/
 
-# C0ontents
+# Contents
 This  project entails of a html file for home page where you can enter your birthday and get an arkan name output respectfully.
 
 It also contains a css file for styling, an images folder and a js file where all the logic is passed.
@@ -23,4 +23,4 @@ As is, this project contains no bugs.
 To run this file on your machine, clone or download this repository and open index.html with live server for maximum performance.
 
 # License
-Copyright (c) 2020 EINSTEIN ELIAM MURITHI
+Copyright (c) 2020 einsteineliam@gmail.com EINSTEIN ELIAM MURITHI

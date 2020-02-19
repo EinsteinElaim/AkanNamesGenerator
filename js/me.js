@@ -38,7 +38,8 @@ var nn, mm, yy, xx, cc, maleanswer, femaleanswer;
 
         function genderselector(){
             getInputValue();
-            validatingInput();
+            //validatingInput();
+            //to remove extra pop ups
             alert('Ignore the next five pop ups');
              if(selector===true){
                  maleanswer = malenames[nn];
