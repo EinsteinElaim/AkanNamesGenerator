@@ -23,4 +23,4 @@ As is, this project contains no bugs.
 To run this file on your machine, clone or download this repository and open index.html with live server for maximum performance.
 
 # License
-Copyright (c) 2020 EINSTEIN ELIAM MURITHI
+Copyright	(c) 2020	einsteineliam@gmail.com		EINSTEIN ELIAM MURITHI
